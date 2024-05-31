@@ -12,7 +12,7 @@ export default function ProductDetails() {
         return item.id === params.id;
       })
     );
-  }, [product, params.id]);
+  }, [product]);
 
   return (
     <>
