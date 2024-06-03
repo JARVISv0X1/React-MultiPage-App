@@ -12,7 +12,7 @@ function App() {
       errorElement: <ErrorPage></ErrorPage>,
       element: <RootLayout></RootLayout>,
       children: [
-        { path: "/", element: <HomePage /> },
+        { index: true, element: <HomePage /> },
         { path: "/products", element: <Product /> },
         { path: "/products/:id", element: <ProductDetails /> },
       ],

@@ -9,7 +9,7 @@ export default function Product() {
         {dishList.map((itemList) => {
           return (
             <li key={itemList.id}>
-              <Link to={"/products/" + itemList.id}>{itemList.title}</Link>
+              <Link to={`/products/${itemList.id}`}>{itemList.title}</Link>
             </li>
           );
         })}
